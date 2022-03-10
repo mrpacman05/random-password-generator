@@ -1,6 +1,24 @@
 function generatepass() {
-  var length = 8,
-    charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+  var length
+  if(document.getElementById("check-13").checked == true && document.getElementById("check-8").checked == true)
+  {
+    alert("Select only one option ");
+
+  }
+   else if(document.getElementById("check-8").checked === true)
+  {
+    length=8;
+  }
+  else if(document.getElementById("check-13").checked == true)
+  {
+    length=13;
+  }
+  else {
+    alert("Select any one option ");
+
+  }
+
+  var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
     retVal = "";
   for (var i = 0, n = charset.length; i < length; ++i) {
     retVal += charset.charAt(Math.floor(Math.random() * n));
