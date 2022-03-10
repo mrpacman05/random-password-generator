@@ -19,7 +19,7 @@ background: #1F2937;
 width: 354px;
 height: 80px;
 left: 400px;
-top: 118px;
+top: 90px;
 margin: auto;
 font-family: Karla;
 font-style: normal;
@@ -39,7 +39,7 @@ color: #FFFFFF;
 width: 372px;
 height: 28px;
 left: 400px;
-top: 208px;
+top: 180px;
 
 /* text-xl/leading-7/font-normal */
 
@@ -55,6 +55,28 @@ line-height: 28px;
 
 color: #D5D4D8;
 }
+#check-8{
+  position: absolute;
+  left: 530px;
+  top: 240px;
+}
+.letter-8{
+  position: absolute;
+  left: 400px;
+  top: 223px;
+  color: #fff;
+}
+#check-13{
+  position: absolute;
+  left: 530px;
+  top: 270px;
+}
+.letter-13{
+  position: absolute;
+  left: 400px;
+  top: 253px;
+  color: #fff;
+}
 .but{
   display: flex;
 flex-direction: row;
@@ -66,7 +88,7 @@ position: absolute;
 width: 223px;
 height: 42px;
 left: 400px;
-top: 279px;
+top: 300px;
 
 background: #10B981;
 /* shadow/sm */
